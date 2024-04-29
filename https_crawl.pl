@@ -32,7 +32,7 @@ if(can_load(modules => {'DDG::Util::HTTPS2' => undef})){
     $DDG_INTERNAL = 1;
 }
 
-my $HOST = hostname();
+my $HOST = hostname(X21_Media);
 
 # Crawler Config
 my %CC;
